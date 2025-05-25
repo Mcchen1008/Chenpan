@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云端网盘服务</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            padding: 20px;
+        }
+        
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .container:hover {
+            transform: translateY(-5px);
+        }
+        
+        h1 {
+            margin-bottom: 30px;
+            color: #4a6baf;
+            font-weight: 600;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+            background-color: #4a6baf;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+        .btn {
+            background-color: #4a6baf;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            font-weight: 500;
+            box-shadow: 0 4px 15px rgba(74, 107, 175, 0.3);
+        }
+        
+        .btn:hover {
+            background-color: #3a5a9f;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(74, 107, 175, 0.4);
+        }
+        
+        .url-display {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            font-size: 14px;
+            word-break: break-all;
+            color: #666;
+            border: 1px solid #e1e5eb;
+        }
+        
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .feature {
+            flex: 1;
+            min-width: 120px;
+            margin: 10px;
+            padding: 15px;
+        }
+        
+        .feature-icon {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #4a6baf;
+        }
+        
+        footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">云</div>
+        <h1>云端网盘服务</h1>
+        <p>安全、快捷、稳定的文件存储与分享平台</p>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">📁</div>
+                <div>大容量存储</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <div>高速传输</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔒</div>
+                <div>数据加密</div>
+            </div>
+        </div>
+        
+        <button class="btn" onclick="window.location.href='https://mzcqnoyf.ap-southeast-1.clawcloudrun.com/'">
+            开始使用网盘
+        </button>
+        
+        <div class="url-display">
+            网盘地址: https://mzcqnoyf.ap-southeast-1.clawcloudrun.com/
+        </div>
+    </div>
+    
+    <footer>
+        © 2023 云端网盘服务 | 版权所有
+    </footer>
+</body>
+</html>
